@@ -1,0 +1,87 @@
+.footerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 2.4rem 0;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6.4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--main-grey);
+}
+
+.subscribeWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.visaWrapper {
+  display: flex;
+  gap: 3.6rem;
+  padding-top: 2rem;
+  width: 13.6rem;
+  height: 4rem;
+}
+
+.visaWrapper img {
+  max-height: 100%;
+}
+.subscribeWrapper p {
+  font-size: 1.8rem;
+}
+
+.subscribeWrapper h1 {
+  color: var(--black);
+}
+
+.subscribeWrapper input {
+  border: none;
+  width: 30rem;
+  border-bottom: 1px solid var(--black);
+}
+
+.subscribeInputWrapper {
+  display: flex;
+  gap: 3rem;
+}
+.linksWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.linksWrapper a {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+#link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.phoneNubmer {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.email {
+  text-decoration: underline;
+  opacity: 0.6;
+}
+
+.copyrightsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 6.4rem;
+  gap: 30rem;
+}
+.policyTermsWrapper {
+  display: flex;
+  opacity: 0.5;
+  gap: 1.5rem;
+}
