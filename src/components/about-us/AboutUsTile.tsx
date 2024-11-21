@@ -1,5 +1,5 @@
 import React from "react";
-import darkGreenLeafs from "../../assets/images/dark-green-leafs.jpeg";
+import darkGreenLeafs from "../../assets/images/dark-green-leafs.avif";
 import styles from "./AboutUsTile.module.css";
 interface TileProps {
   headText: string;
@@ -10,7 +10,12 @@ const Tile: React.FC<TileProps> = ({ headText, children }) => {
   return (
     <div className={styles.aboutSectionWrapper} aria-labelledby="tile-heading">
       <div className={styles.aboutImgWrapper}>
-        <img src={darkGreenLeafs} alt="Dark green leafs" />
+        <img
+          src={darkGreenLeafs}
+          width="230"
+          height="180"
+          alt="Dark green leafs"
+        />
       </div>
       <div className={styles.aboutTextWrapper}>
         <h2 aria-labelledby="about-heading">{headText}</h2>

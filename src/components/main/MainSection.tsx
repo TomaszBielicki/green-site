@@ -1,5 +1,5 @@
 import React from "react";
-import greenLeafsImg from "../../assets/images/many-green-leafs.jpeg";
+import greenLeafsImg from "../../assets/images/many-green-leafs.avif";
 import styles from "./Main.module.css";
 import Button from "../button/Button";
 export default function MainSection() {
