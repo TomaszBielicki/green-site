@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 6.4rem;
+  background-color: var(--white);
+  min-height: 4.8rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7.7rem;
+  min-height: 4.8rem;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 1.6rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  font-size: 1.8rem;
+  list-style: none;
+}

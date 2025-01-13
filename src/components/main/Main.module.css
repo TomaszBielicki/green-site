@@ -1,0 +1,36 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2.4rem 6.4rem 6rem 6.4rem;
+  background-color: var(--main-grey);
+}
+
+.mainText {
+  max-width: 53.6rem;
+}
+
+.imgWrapper {
+  flex: 1;
+  max-width: 64.8rem;
+  max-height: 64.8rem;
+  overflow: hidden;
+}
+
+.greenLeafs {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.textWrapper {
+  flex: 1;
+}
+
+.textWrapper h1,
+.textWrapper p {
+  padding-bottom: 3.6rem;
+}
+
+.textWrapper h2 {
+  padding-bottom: 1.2rem;
+}

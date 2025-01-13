@@ -1,0 +1,47 @@
+.aboutSectionWrapper {
+  display: flex;
+  background-color: var(--primary-color);
+  color: var(--white);
+  gap: 16px;
+  padding: 24px;
+}
+
+.aboutImgWrapper {
+  height: 230px;
+  min-width: 180px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImgWrapper img {
+  rotate: -90deg;
+  height: 160px;
+}
+
+.aboutTextWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.aboutTextWrapper h2 {
+  font-size: 1.8rem;
+  color: var(--white);
+}
+
+.aboutTextWrapper p {
+  line-height: 2.1rem;
+}
+
+.aboutTextWrapper a {
+  font-weight: 700;
+  color: var(--color-white);
+  font-size: 1.4rem;
+}
+
+.aWrapper {
+  display: flex;
+  flex-direction: row;
+}

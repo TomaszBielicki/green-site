@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // Kompatybilność z ECMAScript 2016
+    "module": "esnext", // Używanie modułów ESNext
+    "jsx": "react-jsx", // Wsparcie dla JSX w stylu React 17+
+    "esModuleInterop": true, // Obsługa interop z CommonJS
+    "forceConsistentCasingInFileNames": true, // Sprawdzanie spójności wielkości liter w nazwach plików
+    "strict": true, // Włączenie ścisłego typowania
+    "skipLibCheck": true, // Pomijanie sprawdzania plików .d.ts
+    "moduleResolution": "node", // Wyszukiwanie modułów w stylu Node.js
+    "resolveJsonModule": true, // Możliwość importowania plików JSON
+    "allowSyntheticDefaultImports": true, // Wsparcie dla domyślnych importów
+    "baseUrl": "./src" // Ustawienie bazowego katalogu projektu
+  },
+  "include": ["src/**/*"], // Uwzględnij wszystkie pliki w katalogu src
+  "exclude": ["node_modules"] // Wyklucz katalog node_modules
+}

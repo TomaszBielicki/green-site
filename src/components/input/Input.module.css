@@ -1,0 +1,21 @@
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  border: 2px solid var(--primary-color);
+}
+
+.input {
+  padding: 16px 0 16px 12px;
+  min-height: 100%;
+  border: none;
+  width: 410px;
+}
+
+.inputBtn {
+  background-color: var(--primary-color);
+  padding: 8px;
+  border: none;
+  height: 48px;
+  width: 48px;
+}
