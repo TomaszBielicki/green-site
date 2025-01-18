@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Green Site is a simple project created to practice the use of ARIA tags, which enhance web accessibility. This project demonstrates best practices in semantic HTML and accessibility for users relying on assistive technologies.</p>
+<p align="left">Green Site is a project created to practice the use of ARIA tags, which enhance web accessibility. This project demonstrates best practices in semantic HTML and accessibility for users relying on assistive technologies.</p>
 
 ###
 
